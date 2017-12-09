@@ -2,13 +2,13 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define INPUT "../../_inputs/day1.txt"
+#define ADVENTOFCODE_INPUTS_DAY1_TXT_ "../../_inputs/day1.txt"
 
 int CaptchaPart1(const char *kDigitSequence);
 int CaptchaPart2(const char *kDigitSequence);
 
 int main() {
-  FILE *file = fopen(INPUT, "r");
+  FILE *file = fopen(ADVENTOFCODE_INPUTS_DAY1_TXT_, "r");
   char *line = NULL;
   size_t length = 0;
 
